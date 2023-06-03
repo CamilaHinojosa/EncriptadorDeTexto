@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,200&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+ <header>
+    <img src="imagenesencriptador/codigo-binario.png" alt="Logo de encriptador" class="logo">
+    <h1 class="Titulo">Encriptador de mensajes</h1>
+ </header>  
+ <main>
+    <section class="Bienvenida">
+        <p > Bienvenido/a al encriptador y desencriptador de mensajes.</p>
+    </section>
+    <section class="section1">
+        <textarea class="text-area"   placeholder=" Ingrese texto aquí ">
+         </textarea>  
+          <div class="aclaracion">
+                <h6>Información: Solo letras minúsculas y sin acento</h6>
+            </div>
+            <div class="Boton">
+                <input type="button" class="botonencriptar" value="Encriptar">
+                <input type="button" class="botondesencriptar" value="Desencriptar">
+            </div>
+    </section>
+    <section class="section2">
+        <div class="contenedormuneco">
+            <img src="imagenesencriptador/Muñeco.png" alt="muneco">
+        </div>
+        <div class="contenedorparrafo">
+            <h3>Ningún mensaje encontrado.
+            </h3>
+            <p>Ingrese un texto</p>
+        </div> 
+        <div class="contenedorresultado ocultar">
+            <textarea class="textoresultado"></textarea>
+        </div>
+        <div class="contenedorcopiar">
+            <input type="button" class="botoncopiar" value="Copiar"> 
+        </div>
+       
+    </section>
+ </main> 
+ <script src="sprint.js"></script>
+</body>
+</html>
